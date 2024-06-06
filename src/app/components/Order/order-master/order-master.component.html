@@ -1,0 +1,23 @@
+
+<h1>creat your order:</h1>
+<div class="mb-3">
+  <label for="prdCat" class="form-label">Category:</label>
+  <!-- <select #cat class="form-control" name="cat" id="prdCat" (change)="getSlect(cat.value)"> -->
+    <select class="form-control" name="cat" id="prdCat" [(ngModel)]="slectedCategryID">
+    <!-- <option value="0" selected>All</option> -->
+    <option *ngFor="let cat of catList" [value]="cat.id">{{cat.name}}</option>
+
+  </select>
+</div>
+<hr>
+<div class="bg-warning">
+<app-productlist [sentCatID]="slectedCategryID" (totalpriceChanged)="ontotalpricechange($event)"></app-productlist>
+</div>
+
+<hr>
+<div>
+  <h3>Enter your name:{{form}}</h3>
+  <input #clinetNameInp type="text" class="form-control" (keyup)="forms(clinetNameInp.value)">
+</div>
+<h3>totall price is:{{resevOrdrertotalpric | currency:"USD":"symbol"}}</h3>
+<button type="button" class="btn btn-success mb-2"  (click)="completeOreder()">place Order</button>

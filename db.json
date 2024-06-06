@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "id": 100,
+      "name": "Lenvo thinpad X230",
+      "price": 100000000,
+      "quantity": 1,
+      "categoryID": 1,
+      "imgURL": "../../../assets/m-2.jpg"
+    },
+    {
+      "id": 200,
+      "name": "Dell",
+      "price": 2007780,
+      "quantity": 0,
+      "categoryID": 1,
+      "imgURL": "../../../assets/m-2.jpg"
+    },
+    {
+      "id": 300,
+      "name": "Lenovo Tab",
+      "price": 3000,
+      "quantity": 10,
+      "categoryID": 2,
+      "imgURL": "../../../assets/m-2.jpg"
+    },
+    {
+      "id": 400,
+      "name": "Samsung Tab",
+      "price": 40.5,
+      "quantity": 2,
+      "categoryID": 2,
+      "imgURL": "../../../assets/m-2.jpg"
+    },
+    {
+      "id": 500,
+      "name": "Samsung note 10",
+      "price": 50000,
+      "quantity": 0,
+      "categoryID": 3,
+      "imgURL": "../../../assets/m-2.jpg"
+    },
+    {
+      "id": 600,
+      "name": "Samsung S10",
+      "price": 600,
+      "quantity": 1,
+      "categoryID": 3,
+      "imgURL": "../../../assets/m-2.jpg"
+    },
+    {
+      "id": 13.4,
+      "name": "New Tablet",
+      "price": 100,
+      "quantity": 10,
+      "categoryID": 2,
+      "imgURL": "../../../assets/m-2.jpg"
+    },
+    {
+      "id": 10,
+      "name": "New Tablet",
+      "price": 100,
+      "quantity": 10,
+      "categoryID": 2,
+      "imgURL": "../../../assets/m-2.jpg"
+    },
+    {
+      "id": 1,
+      "name": "New Tablet",
+      "price": 100,
+      "quantity": 10,
+      "categoryID": 2,
+      "imgURL": "../../../assets/m-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "New Tablet",
+      "price": 100,
+      "quantity": 10,
+      "categoryID": 2,
+      "imgURL": "../../../assets/m-2.jpg"
+    }
+
+
+  ],
+  "Categories": [
+    {
+      "id": 1,
+      "name": "Laptops",
+      "Desciption": "This is description"
+    },
+    {
+      "id": 2,
+      "name": "Tablets",
+      "Desciption": "This is description"
+    },
+    {
+      "id": 3,
+      "name": "Mobiles",
+      "Desciption": "This is description"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<!-- {{prd | json}} -->
+<div class="card m-2" style="width: 18rem;">
+  <img [src]="prd?.imgURL" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{prd?.name}}</h5>
+    <div class="card-text">
+        <div>price: {{prd?.price}}</div>
+        <div class="mb-2">quantity: {{prd?.quantity}}</div>
+    </div>
+
+    <hr>
+    <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+        <button [disabled]=" currprdID == prdIDsArr[0] " type="button" class="btn btn-danger" (click)="prevprd()">prvious</button>
+        <button type="button" class="btn btn-warning" (click)="GOBack()">Back</button>
+        <button [disabled]=" currprdID == prdIDsArr[prdIDsArr.length-1] " type="button" class="btn btn-success" (click)="nextprd()">next</button>
+      </div>
+   <!-- <button type="button" class="btn btn-primary" style="padding-left: 30px; padding-right: 30px;"  (click)="GOBack()">Back</button> -->
+  </div>
+</div>
